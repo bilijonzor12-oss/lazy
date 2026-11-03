@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.grey {
+    color: grey;
+}
+
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 36px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a,
+.menu-btn {
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.hero-left {
+    width: 55%;
+}
+
+.hero h1 {
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.hero .right {
+    text-align: right;
+}
+
+.hero-text {
+    margin-top: 80px;
+    width: 400px;
+    color: grey;
+}
+
+.hero-img {
+    width: 45%;
+}
+
+.clients {
+    padding-top: 20px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.clients-list h3 {
+    font-size: 28px;
+}
+
+.what {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.what-text {
+    width: 45%;
+}
+
+.what-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.what-img {
+    width: 45%;
+}
+
+.projects-box {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.column img {
+    width: 100%;
+}
+
+.card {
+    background-color: #141414;
+    padding: 22px;
+}
+
+.card h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.card span {
+    background-color: black;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+.slider {
+    display: flex;
+    gap: 14px;
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+.slider img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.lines {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.help-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.help-list {
+    width: 20%;
+}
+
+.help-list p {
+    color: #5c5c5c;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.help-list .active {
+    color: white;
+    padding-left: 10px;
+}
+
+.help-box img {
+    width: 40%;
+}
+
+.help-text {
+    width: 40%;
+}
+
+.help-text p {
+    margin-bottom: 8px;
+}
+
+.help-text p:first-child {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.person {
+    width: 180px;
+}
+
+.about-text {
+    width: 450px;
+}
+
+.about-text h2 {
+    margin-bottom: 16px;
+}
+
+.about-text a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer {
+    overflow: hidden;
+}
+
+.footer-box {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 70px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-main {
+    width: 40%;
+}
+
+.footer-main h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.mail {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 13px;
+}
+
+.footer-col h5 {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.footer-col p,
+.footer-col a {
+    color: grey;
+}
+
+.up {
+    font-size: 13px;
+}
+
+.circles {
+    position: relative;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.circle {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: #3CF2A0;
+    left: 8%;
+    top: 40%;
+}
+
+.blue {
+    background-color: #5AA8FF;
+    left: 38%;
+    top: -10%;
+}
+
+.purple {
+    background-color: #3326C9;
+    left: 46%;
+    top: 30%;
+}
+
+@media (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .hero,
+    .what,
+    .projects-box,
+    .help-box,
+    .about,
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .hero-left,
+    .hero-img,
+    .what-text,
+    .what-img,
+    .column,
+    .help-list,
+    .help-box img,
+    .help-text,
+    .about-text,
+    .footer-main {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .clients-list {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .slider img {
+        width: 280px;
+        height: 175px;
+    }
+
+    .circle {
+        width: 260px;
+        height: 260px;
+    }
+}
